@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.scss';
+import { ProfileCard } from './ProfileCard';
 
 function App() {
   return (
-    <div>
-      <span> Yarden's application </span>
+    <div className='app-container'>
+      <ProfileCard />
     </div>
   );
 }
